@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS products (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    category TEXT,
+    price REAL,
+    stock INTEGER
+);
+
+INSERT INTO products (name, category, price, stock) VALUES
+('Football', 'Ball', 1200, 10),
+('Basketball', 'Ball', 900, 15),
+('Running Shoes', 'Shoes', 2500, 5);
